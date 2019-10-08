@@ -1,0 +1,51 @@
+{
+    "events":[
+       {  
+          "data":{ 
+             "custom_event_type":"navigation",
+             "event_name":"example custom 50",
+             "custom_attributes":{  
+                "foo":"bar"
+             }
+          },
+          "event_type":"custom_event"
+       },
+       {
+          "data":{
+             "screen_name":"example screen 30"
+          },
+          "event_type":"screen_view"
+       },
+       {
+          "data":{
+             "product_action":{
+                "action":"purchase",
+                "transaction_id":"foo transaction id",
+                "total_amount":123,
+                "products":[
+                   {
+                      "id":"Product SKU",
+                      "name":"Product name"
+                   }
+                ]
+             },
+             "custom_attributes":{
+                "foo":"bar"
+             }
+          },
+          "event_type":"commerce_event"
+       }
+    ],
+    "user_attributes":{
+         "foo-string10":"bar",
+         "foo-string1":"bar",
+         "foo-number1":123,
+         "foo-number10":1234,
+         "foo-boolean1":true
+    },
+    "user_identities":{
+       "customer_id":123456,
+       "email":"foo@example.com"
+    }
+ }
+ 

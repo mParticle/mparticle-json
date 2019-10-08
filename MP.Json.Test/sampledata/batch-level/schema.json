@@ -1,0 +1,2808 @@
+{
+    "description": "Example data plan schema",
+    "properties": {
+      "events": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/ExampleScreenViewEvent1"
+            },
+            {
+                "$ref": "#/definitions/ExampleScreenViewEvent1"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent2"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent3"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent4"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent5"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent6"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent7"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent8"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent9"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent10"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent11"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent12"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent13"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent14"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent15"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent16"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent17"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent18"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent19"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent20"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent21"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent22"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent23"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent24"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent25"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent26"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent27"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent28"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent29"
+              },
+              {
+                "$ref": "#/definitions/ExampleScreenViewEvent30"
+              },
+              {
+                "$ref": "#/definitions/ExampleCustomEvent1"
+              },
+            {
+                "$ref": "#/definitions/ExampleCustomEvent2"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent3"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent4"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent5"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent6"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent7"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent8"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent9"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent10"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent11"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent12"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent13"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent14"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent15"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent16"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent17"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent18"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent19"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent20"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent21"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent22"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent23"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent24"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent25"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent26"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent27"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent28"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent29"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent30"
+              },             
+                         {
+                "$ref": "#/definitions/ExampleCustomEvent31"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent32"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent33"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent34"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent35"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent36"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent37"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent38"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent39"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent40"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent41"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent42"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent43"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent44"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent45"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent46"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent47"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent48"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent49"
+              },            {
+                "$ref": "#/definitions/ExampleCustomEvent50"
+              },    
+              {
+                "$ref": "#/definitions/ExampleCommerceEvent1"
+              }
+          ]
+        }
+      },
+      "user_attributes": {
+        "properties": {
+          "foo-string1": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string2": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string3": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string4": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string5": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string6": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string7": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string8": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string9": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-string10": {
+            "$ref": "#/definitions/String"
+          },
+          "foo-boolean1": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean2": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean3": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean4": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean5": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean6": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean7": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean8": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean9": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-boolean10": {
+            "$ref": "#/definitions/Boolean"
+          },
+          "foo-number1": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number2": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number3": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number4": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number5": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number6": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number7": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number8": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number9": {
+            "$ref": "#/definitions/Number"
+          },
+          "foo-number10": {
+            "$ref": "#/definitions/Number"
+          }
+        },
+        "additionalProperties": false,
+        "required":[
+            "foo-string1", "foo-boolean1", "foo-number1"
+        ]
+      },
+      "user_identities": {
+        "properties": {
+          "customer_id": {
+            "$ref": "#/definitions/Number"
+          },
+          "email": {
+            "$ref": "#/definitions/String"
+          },
+          "other": {
+            "$ref": "#/definitions/Number"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "definitions": {
+      "ExampleCustomEvent1": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 1"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent2": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 2"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent3": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 3"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent4": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 4"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent5": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 5"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent6": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 6"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent7": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 7"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent8": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 8"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent9": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 9"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent10": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 10"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent11": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 11"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent12": {
+        "type": "object",
+        "if": {
+            "properties": {
+                "data": {
+                    "properties": {
+                        "custom_event_type": {
+                            "type": "string",
+                            "const": "navigation"
+                        },
+                        "event_name": {
+                            "type": "string",
+                            "const": "example custom 12"
+                        }
+                    },
+                    "required": [
+                    "custom_event_type",
+                    "event_name"
+                    ]
+                },
+                "event_type": {
+                    "type": "string",
+                    "const": 
+                    "custom_event"
+                }
+            }
+        },
+        "then": {
+            "properties": {
+                "data": {
+                    "properties": {
+                    "custom_attributes": {
+                        "properties": {
+                        "foo": {
+                            "$ref": "#/definitions/String"
+                        }
+                        },
+                        "additionalProperties": false,
+                        "required":["foo"]
+                    },
+                    "custom_event_type": {
+                        "type": "string",
+                        "const": "navigation"
+                    },
+                    "event_name": {
+                        "type": "string",
+                        "const": "example custom 12"
+                    }
+                    },
+                    "required": [
+                    "custom_event_type",
+                    "event_name"
+                    ]
+                },
+                "event_type": {
+                    "type": "string",
+                    "const": 
+                    "custom_event"
+                }
+            }
+        }
+      },
+      "ExampleCustomEvent13": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 13"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent14": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 14"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent15": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 15"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+            }
+        }
+      },
+      "ExampleCustomEvent16": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 16"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent17": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 17"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent18": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 18"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent19": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 19"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent20": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 20"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent21": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 21"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent22": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 22"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent23": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 23"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent24": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 24"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent25": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 25"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent26": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 26"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent27": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 27"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent28": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 28"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent29": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 29"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent30": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 10"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent31": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 31"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent32": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 32"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent33": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 33"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent34": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 34"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent35": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 35"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent36": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 36"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent37": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 37"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent38": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 38"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent39": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 39"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent40": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 40"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent41": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 41"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent42": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 42"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent43": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 43"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent44": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 44"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent45": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 45"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent46": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 46"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent47": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 47"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent48": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 48"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent49": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 49"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCustomEvent50": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "custom_attributes": {
+                "properties": {
+                  "foo": {
+                    "$ref": "#/definitions/String"
+                  }
+                },
+                "additionalProperties": false,
+                "required":["foo"]
+              },
+              "custom_event_type": {
+                "type": "string",
+                "const": "navigation"
+              },
+              "event_name": {
+                "type": "string",
+                "const": "example custom 50"
+              }
+            },
+            "required": [
+              "custom_event_type",
+              "event_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "custom_event"
+          }
+        }
+      },
+      "ExampleCommerceEvent1": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "product_action": {
+                "properties": {
+                  "action": {
+                    "type": "string",
+                    "const": 
+                      "purchase"
+                    
+                  },
+                  "total_amount": {
+                    "$ref": "#/definitions/Number"
+                  },
+                  "transaction_id": {
+                    "$ref": "#/definitions/String"
+                  },
+                  "products": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "action",
+                  "transaction_id",
+                  "total_amount"
+                ]
+              }
+            }
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "commerce_event"
+          }
+        }
+      },
+      "ExampleScreenViewEvent1": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 1"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent2": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 2"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent3": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 3"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent4": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 4"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent5": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 5"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent6": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 6"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent7": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 7"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent8": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 8"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent9": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 9"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent10": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 10"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent11": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 11"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent12": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 12"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent13": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 13"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent14": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 14"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent15": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 15"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent16": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 16"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent17": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 17"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent18": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 18"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent19": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 19"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent20": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 20"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent21": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 21"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent22": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 22"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent23": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 23"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent24": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 24"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent25": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 25"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent26": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 26"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent27": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 27"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent28": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 28"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent29": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 29"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "ExampleScreenViewEvent30": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "properties": {
+              "screen_name": {
+                "type": "string",
+                "const": "example screen 30"
+              }
+            },
+            "required": [
+              "screen_name"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "const": 
+              "screen_view"
+          }
+        }
+      },
+      "Integer": {
+        "type": 
+          "integer"
+    
+      },
+      "Number": {
+        "type": 
+          "number"
+      },
+      "String": {
+        "type": 
+          "string"
+        
+      },
+      "Boolean": {
+        "type": 
+          "boolean"
+      }
+    }
+  }

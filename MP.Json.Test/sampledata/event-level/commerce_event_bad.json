@@ -1,0 +1,19 @@
+{
+         "data":{
+            "product_action":{
+               "action":"purchase",
+               "transaction_id":"foo-bad",
+               "total_amount":"foo-bad",
+               "products":[
+                  {
+                     "ids":"Product SKU",
+                     "names":"Product name"
+                  }
+               ]
+            },
+            "custom_attributes":{
+               "blah":"bar"
+            }
+         },
+         "event_type":"commerce_event"
+      }

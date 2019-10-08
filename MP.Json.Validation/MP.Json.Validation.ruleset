@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SonarQube - mpServer mp-rules" ToolsVersion="16.0">
+  <Include Path="..\..\mparticle-json-internal\.sonarlint\mpjsoncsharp.ruleset" Action="Default" />
+  <Include Path="..\..\mpserver\.sonarlint\mpservercsharp.ruleset" Action="Default" />
+  <Include Path="..\.sonarlint\mpjsoncsharp.ruleset" Action="Default" />
+</RuleSet>

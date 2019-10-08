@@ -1,0 +1,20 @@
+{
+   "data":{
+      "custom_event_type":"navigation",
+      "event_name":"example custom 1",
+      "custom_attributes":{
+         "foo-string1":"bar",
+         "foo-string2":"bar",
+         "foo-string3":"bar",
+         "foo-string4":"bar",
+         "foo-string5":"bar",
+         "foo-string6":"bar",
+         "foo-string7":"bar",
+         "foo-not-defined":"bar",
+         "foo-number":"123a",
+         "foo-string-const":"wrong",
+         "foo-number-const":1234
+      }
+   },
+   "event_type":"custom_event"
+}

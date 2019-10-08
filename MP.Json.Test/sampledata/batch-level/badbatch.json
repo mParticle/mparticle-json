@@ -1,0 +1,643 @@
+{
+    "source_request_id": "43547e54-7715-468b-b792-f0bb0c246fb8",
+    "events": [
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 3",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389571683",
+          "event_id": "-6754831589018729535",
+          "source_message_id": "a242ebd3-ac95-4a67-9a0b-fd034de4daca",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389571683",
+          "custom_attributes": {
+            "Test Event #0 Attribute A": "Test Event #0 Value A",
+            "Test Event #0 Attribute B": "Test Event #0 Value B",
+            "Test Event #0 Attribute C": "Test Event #0 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 3",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389592683",
+          "event_id": "-1538365480315836559",
+          "source_message_id": "00dd3c22-42e0-46b6-af86-36196d60ef5b",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389592683",
+          "custom_attributes": {
+            "Test Event #1 Attribute A": "Test Event #1 Value A",
+            "Test Event #1 Attribute B": "Test Event #1 Value B",
+            "Test Event #1 Attribute C": "Test Event #1 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 4",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389462683",
+          "event_id": "7367110682061191423",
+          "source_message_id": "8ca815e1-61a3-46c7-8c2f-86f2e24fc480",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389462683",
+          "custom_attributes": {
+            "Test Event #2 Attribute A": "Test Event #2 Value A",
+            "Test Event #2 Attribute B": "Test Event #2 Value B",
+            "Test Event #2 Attribute C": "Test Event #2 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 1",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389580683",
+          "event_id": "-4717418788137746889",
+          "source_message_id": "4c3e32d0-8a5b-4ec1-8908-7cffbd59cbea",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389580683",
+          "custom_attributes": {
+            "Test Event #3 Attribute A": "Test Event #3 Value A",
+            "Test Event #3 Attribute B": "Test Event #3 Value B",
+            "Test Event #3 Attribute C": "Test Event #3 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 6",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389307683",
+          "event_id": "5547420063141205224",
+          "source_message_id": "ec7422fb-0205-410d-9276-1c864f828811",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389307683",
+          "custom_attributes": {
+            "Test Event #4 Attribute A": "Test Event #4 Value A",
+            "Test Event #4 Attribute B": "Test Event #4 Value B",
+            "Test Event #4 Attribute C": "Test Event #4 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 8",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389336683",
+          "event_id": "-1528359811157332337",
+          "source_message_id": "82d916c1-e6fd-49d9-83d3-8f1294b6de37",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389336683",
+          "custom_attributes": {
+            "Test Event #5 Attribute A": "Test Event #5 Value A",
+            "Test Event #5 Attribute B": "Test Event #5 Value B",
+            "Test Event #5 Attribute C": "Test Event #5 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 7",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389509683",
+          "event_id": "7738767696804891652",
+          "source_message_id": "79e6dd98-0fcb-448d-9f05-be142912e932",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389509683",
+          "custom_attributes": {
+            "Test Event #6 Attribute A": "Test Event #6 Value A",
+            "Test Event #6 Attribute B": "Test Event #6 Value B",
+            "Test Event #6 Attribute C": "Test Event #6 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "custom_event_type": "transaction",
+          "event_name": "Transaction 8",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389519683",
+          "event_id": "-8102694420487583471",
+          "source_message_id": "feb31de7-6beb-4637-873d-e6b085e14e54",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389519683",
+          "custom_attributes": {
+            "Test Event #7 Attribute A": "Test Event #7 Value A",
+            "Test Event #7 Attribute B": "Test Event #7 Value B",
+            "Test Event #7 Attribute C": "Test Event #7 Value C"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute",
+          "data_connection_type": "wifi"
+        },
+        "event_type": "custom_event"
+      },
+      {
+        "data": {
+          "screen_name": "Home Screen",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389586683",
+          "event_id": "5748647466462679180",
+          "source_message_id": "c7e8960f-14c0-43c8-87e3-52d518a3b9cf",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389303683",
+          "custom_attributes": {},
+          "location": {
+            "latitude": 41.7142,
+            "longitude": 72.0064,
+            "accuracy": 15
+          },
+          "data_connection_type": "wifi"
+        },
+        "event_type": "screen_view"
+      },
+      {
+        "data": {
+          "class_name": "java.lang.NullReferenceException_0809151",
+          "severity": "Fatal",
+          "message": "Error Occured 0809151",
+          "stack_trace": "java.lang.NullReferenceException: exception requested\r\nat com.mparticle.TravelApp.MainActivity$1.onClick(MainActivity.java:118)\r\nat android.view.View.performClick(View.java:2408)\r\nat android.view.View$PerformClick.run(View.java:8816)\r\nat android.os.Handler.handleCallback(Handler.java:587)\r\nat android.os.Handler.dispatchMessage(Handler.java:92)\r\nat android.os.Looper.loop(Looper.java:123)\r\nat android.app.ActivityThread.main(ActivityThread.java:4627)\r\nat java.lang.reflect.Method.invokeNative(Native Method)\r\nat java.lang.reflect.Method.invoke(Method.java:521)\r\nat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)\r\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)\r\nat dalvik.system.NativeStart.main(Native Method)\r\n",
+          "exception_handled": true,
+          "timestamp_unixtime_ms": "1565389236683",
+          "event_id": "4133682418637230359",
+          "source_message_id": "c44ec0da-af52-48ae-bb32-1d67a94c23b3",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389236683",
+          "custom_attributes": {},
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "data_connection_type": "wifi"
+        },
+        "event_type": "crash_report"
+      },
+      {
+        "data": {
+          "user_attribute_name": "test attribute",
+          "new": "new",
+          "old": "old",
+          "timestamp_unixtime_ms": "1565389596718"
+        },
+        "event_type": "user_attribute_change"
+      },
+      {
+        "data": {
+          "product_action": {
+            "action": "purchase",
+            "checkout_step": 1,
+            "checkout_options": "o1;o2;o3",
+            "product_action_list": "action-lst",
+            "product_list_source": "lst-src",
+            "transaction_id": "trn_123",
+            "affiliation": "aff122",
+            "total_amount": 100,
+            "tax_amount": 11,
+            "shipping_amount": 20,
+            "coupon_code": "cc-2000",
+            "products": [
+              {
+                "id": "sku_0909",
+                "name": "Test Product",
+                "brand": "brand",
+                "category": "category",
+                "variant": "var",
+                "position": 1,
+                "price": 11.99,
+                "quantity": 8.5,
+                "coupon_code": "cc-prod1",
+                "custom_attributes": {
+                  "a1": "a1v"
+                }
+              }
+            ]
+          },
+          "promotion_action": {
+            "action": "view",
+            "promotions": [
+              {
+                "id": "id-abc",
+                "name": "Promo Name 1",
+                "creative": "creative1",
+                "position": "bottom"
+              }
+            ]
+          },
+          "product_impressions": [
+            {
+              "product_impression_list": "Impression List",
+              "products": [
+                {
+                  "id": "sku_0909",
+                  "name": "Test Product",
+                  "brand": "brand",
+                  "category": "category",
+                  "variant": "var",
+                  "position": 1,
+                  "price": 11.99,
+                  "quantity": 8.5,
+                  "coupon_code": "cc-prod1",
+                  "custom_attributes": {
+                    "a1": "a1v"
+                  }
+                }
+              ]
+            }
+          ],
+          "shopping_cart": {
+            "products": [
+              {
+                "id": "sku_0909",
+                "name": "Test Product",
+                "brand": "brand",
+                "category": "category",
+                "variant": "var",
+                "position": 1,
+                "price": 11.99,
+                "quantity": 8.5,
+                "coupon_code": "cc-prod1",
+                "added_to_cart_time_ms": "1565389236683",
+                "custom_attributes": {
+                  "a1": "a1v"
+                }
+              }
+            ]
+          },
+          "currency_code": "USD",
+          "screen_name": "screen",
+          "is_non_interactive": true,
+          "event_name": "eCommerce - Purchase",
+          "custom_event_type": "purchase",
+          "custom_flags": {},
+          "timestamp_unixtime_ms": "1565389456683",
+          "event_id": "-6600752856542153947",
+          "source_message_id": "f39c9b76-879a-4806-a6d6-daf3fd26de19",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389236683",
+          "custom_attributes": {
+            "a1": "a1v"
+          },
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "is_goal_defined": true,
+          "lifetime_value_change": 100,
+          "lifetime_value_attribute_name": "Ltv Attribute"
+        },
+        "event_type": "commerce_event"
+      },
+      {
+        "data": {
+          "timestamp_unixtime_ms": "1565389236683",
+          "event_id": "-8960398251316430042",
+          "source_message_id": "fb6b5c6a-0b66-46f8-8f40-4e169fe01c36",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389236683",
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "data_connection_type": "wifi"
+        },
+        "event_type": "session_start"
+      },
+      {
+        "data": {
+          "session_duration_ms": "375035",
+          "timestamp_unixtime_ms": "1565389611718",
+          "event_id": "3514984260958316722",
+          "source_message_id": "988e0441-cbea-433a-b9d3-73312039b44e",
+          "session_id": "-8960398251316430042",
+          "session_start_unixtime_ms": "1565389236683",
+          "event_start_unixtime_ms": "1565389236683",
+          "location": {
+            "latitude": 40.7142,
+            "longitude": 74.0064,
+            "accuracy": 15
+          },
+          "device_current_state": {
+            "time_since_start_ms": "1200",
+            "battery_level": 85,
+            "data_connection_type": "wifi",
+            "gps_state": true,
+            "cpu": "37",
+            "system_memory_available_bytes": 157286400,
+            "system_memory_low": false,
+            "system_memory_threshold_bytes": 26214400,
+            "application_memory_available_bytes": 52428800,
+            "application_memory_max_bytes": 41943040,
+            "application_memory_total_bytes": 31457280
+          },
+          "data_connection_type": "wifi"
+        },
+        "event_type": "session_end"
+      }
+    ],
+    "device_info": {
+      "brand": "Samsung",
+      "product": "Galaxy S3",
+      "device": "My Galaxy S3",
+      "android_uuid": "1a2b80f3-64df-48d6-9b1d-1b6cc7708dec",
+      "device_manufacturer": "Samsung",
+      "platform": "Android",
+      "os_version": "4.1.1",
+      "device_model": "Galaxy S3",
+      "screen_height": 736,
+      "screen_width": 1280,
+      "screen_dpi": 160,
+      "device_country": "US",
+      "locale_language": "EN",
+      "locale_country": "US",
+      "network_country": "US",
+      "network_carrier": "Verizon",
+      "network_code": "MobileNetworkCode",
+      "network_mobile_country_code": "MobileCountryCode",
+      "timezone_offset": -5,
+      "build_identifier": "M4=rc20",
+      "http_header_user_agent": "Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; Samsung Galaxy S3) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+      "cpu_architecture": "armv7s",
+      "is_dst": false
+    },
+    "application_info": {
+      "application_name": "App Name",
+      "application_version": "1.2.001-dbg",
+      "application_build_number": "101",
+      "package": "com.mparticle.TravelAppTest",
+      "os": "Android",
+      "apple_search_ads_attributes": {
+        "somekey": {
+          "anotherkey": "somevalue"
+        }
+      }
+    },
+    "user_attributes": {
+      "$FirstName": "Brian",
+      "$LastName": "O'Brian",
+      "$Gender": "M",
+      "$State": "FL",
+      "$Country": "US",
+      "$City": "Boca \u0000Raton",
+      "$Zip": "33431",
+      "list1": [
+        "value1",
+        "value2"
+      ],
+      "list2": [
+        "value1",
+        "value2"
+      ]
+    },
+    "user_identities": {
+      "google": "-5845926066443450386@gmail.com",
+      "yahoo": "-5845926066443450386@yahoo.com",
+      "customer_id": "-5845926066443450386@mycompany.com",
+      "email": "\u0000r\u0000e\u0000n\u0000@\u0000g\u0000m\u0000a\u0000i\u0000l\u0000.\u0000c\u0000o\u0000m"
+    },
+    "ip": "127.0.0.170",
+    "source_info": {
+      "channel": "native"
+    },
+    "timestamp_unixtime_ms": "1565389641718",
+    "batch_id": "7704772268500858001",
+    "mpid": "-5845926066443450386",
+    "sdk_version": "1.0.1"
+  }
